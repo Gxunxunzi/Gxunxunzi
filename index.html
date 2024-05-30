@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>导航栏模板</title>
+<meta charset="utf-8">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+
+<div class="wrapper row1">
+  <header id="header" class="clear"> 
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">导航栏</a></h1>
+    </div>
+    <nav id="mainav" class="fl_right"><!--导航链接-->
+      <ul class="clear">
+        <li class="active"><a href="index.html">首页</a></li>
+        <li ><a class="drop" href="#">往期文章</a>
+          <ul>
+            <li><a href="pages/page1.html">中国共产党第十九届中央委员会第七次全体会议公报 </a></li>
+            <li><a href="pages/page2.html">《杀死一只知更鸟》读后感</a></li>
+            <li><a href="pages/page3.html">百年大党铸辉煌，青春奋斗正当时</a></li>
+            <li><a href="pages/page4.html">更多文章</a></li>
+          </ul>
+        </li>
+        <li><a class="drop" href="#">博主的日常</a>
+          <ul>
+            <li><a href="bzrc/jingxuantupian.html">精选图片</a></li>
+            <li><a class="drop" href="#">动态</a>
+              <ul>
+                <li><a href="#">今日动态</a></li>
+                <li><a href="#">过去动态</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="pages/page5.html">博主推荐</a></li>
+        <li><a class="drop" href="#">关于博主</a>
+          <ul>
+            <li><a href="link/index.html">博主介绍</a></li>
+            <li><a class="drop" href="#">联系方式</a>
+              <ul>
+                  <li><a href="#"style="padding-right: 15px;width: 140px;">QQ：1914615560</a></li>
+                <a href="#" style="padding-right: 15px;width: 140px;">微信：18235526292</a>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<div class="wrapper row2 bgded" style="background-image:url('images/demo/backgrounds/v2-a5b29c3c43bb867a3435061de59c1cfc_720w.jpg');">
+  <div class="overlay">
+    <div id="intro" class="clear"> 
+      <!-- ################################################################################################ -->
+      <article class="one_third first">
+        <h3 class="heading">文章推荐</h3>
+        <ul class="nospace">
+          <li>中国共产党第十九届中央委员会第七次全体会议公报</li>
+          <li>《杀死一只知更鸟》读后感</li>
+          <li>百年大党铸辉煌，青春时奋斗正当</li>
+          <li>中国共产党第十九届中央委员会第七次全体会议公报</li>
+          <li>《杀死一只知更鸟》读后感</li>
+        </ul>
+        <p class="link"><a href="#">查看详情 &raquo;</a></p>
+      </article>
+      <article class="one_third">
+        <h3 class="heading">博主推荐</h3>
+        <ul class="nospace">
+          <li>中国共产党第十九届中央委员会第七次全体会议公报</li>
+          <li>《杀死一只知更鸟》读后感</li>
+          <li>百年大党铸辉煌，青春时奋斗正当</li>
+          <li>中国共产党第十九届中央委员会第七次全体会议公报</li>
+          <li>《杀死一只知更鸟》读后感</li>
+        </ul>
+        <p class="link"><a href="#">查看详情&raquo;</a></p>
+      </article>
+      <article class="one_third">
+        <h3 class="heading">小寻乱语</h3>
+        <ul class="nospace">
+          <li>开花季</li>
+          <li>上学啦，欢迎来找我玩啊</li>
+          <li>每日期待：今天又幸福啦!你有什么幸福的事要跟我分享吗</li>
+          <li>你过得好吗，好想你</li>
+          <li>儿童节快乐哇，希望大家可以有孩子般的快乐</li>
+        </ul>
+        <p class="link"><a href="#">天天开心</a></p>
+      </article>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <div class="group">
+
+      <div class="one_half first">
+        <h2 class="heading btmspace-50">精选照片</h2>
+        <figure id="featuredpost">
+          <img src="images/demo/1.jpg" alt="眺望大海" id="featuredImage" style="width: 100%; height: auto;">
+          <figcaption>
+            <h2 class="heading">眺望大海</h2>
+            <p class="shortintro">2024.04.28</p>
+            <p class="link"><a class="btn" href="#" onclick="showImage('1.jpg')">查看详情 &raquo;</a></p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="one_half">
+        <h2 class="heading btmspace-50">博主动态</h2>
+        <ul id="latestposts" class="nospace">
+          <li class="clear">
+            <figure class="one_quarter first"><img class="borderedbox inspace-5" src="images/demo/2.jpg" alt="大自然"></figure>
+            <article class="three_quarter">
+              <h2 class="heading">大自然</h2>
+              <div class="meta">
+                <address>
+                山西<a href="#">太原</a>
+                </address>
+                <time datetime="2045-04-06T08:15+00:00">2024.04.28</time>
+              </div>
+              <p class="shortintro">向往惬意生活&hellip;</p>
+              <p class="link"><a class="btn" href="#" onclick="return showImage('2.jpg')">查看详情&raquo;</a></p>
+            </article>
+          </li>
+          <li class="clear">
+            <figure class="one_quarter first"><img class="borderedbox inspace-5" src="images/demo/3.jpg" alt=""></figure>
+            <article class="three_quarter">
+              <h2 class="heading">惬意生活</h2>
+              <div class="meta">
+                <address>
+                山东 <a href="#">济南</a>
+                </address>
+                <time datetime="2045-04-06T08:15+00:00">2024.05.12</time>
+              </div>
+              <p class="shortintro">新杯子&hellip;</p>
+              <p class="link"><a class="btn" href="#" onclick="return showImage('3.jpg')">查看详情 &raquo;</a></p>
+            </article>
+          </li>
+          <li class="clear">
+            <figure class="one_quarter first"><img class="borderedbox inspace-5" src="images/demo/4.jpg" alt=""></figure>
+            <article class="three_quarter">
+              <h2 class="heading">荒野</h2>
+              <div class="meta">
+                <address>
+                山东 <a href="#">济南</a>
+                </address>
+                <time datetime="2045-04-06T08:15+00:00">2024.05.16</time>
+              </div>
+              <p class="shortintro">马赛克&hellip;</p>
+              <p class="link"><a class="btn" href="#" onclick="return showImage('4.jpg')">查看详情 &raquo;</a></p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </main>
+</div>
+
+<div class="wrapper row6">
+  <div id="copyright" class="clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2022 - All Rights Reserved - <a href="#">寻寻子</a></p>
+    <p class="fl_right"><a target="_blank" href="">Test</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script> 
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script>
+  function showImage(imageId) {
+    // 假设图片URL是基于ID的，你可以根据实际情况进行修改
+    var imageUrl = 'images/demo/' + imageId;
+
+    // 创建一个新的HTML页面内容，其中包含要显示的图片
+    var newPageHTML = '<!DOCTYPE html><html><head><title>图片详情</title></head><body><img src="' + imageUrl + '" alt="图片详情" style="width: 100%; height: auto;"></body></html>';
+
+    // 使用window.open打开一个新窗口或标签页，并显示该HTML内容
+    var newWindow = window.open('', '_blank'); // 第二个参数'_blank'表示在新窗口或标签页中打开
+    newWindow.document.write(newPageHTML); // 将HTML内容写入新窗口的document中
+    newWindow.document.close(); // 关闭写入流，确保内容被正确加载
+
+    // 阻止默认链接行为（即#的跳转）
+    return false;
+  }
+</script>
+
+</body>
+</html>
